@@ -30,18 +30,21 @@
     </div>
 
     <div class="form pt-10">
-     <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+     <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow mx-auto rounded-2xl">
       <div class="card-body">
         <fieldset class="fieldset">
-          <label class="label">Email</label>
-          <input type="email" class="input" placeholder="Email" />
-          <label class="label">Password</label>
-          <input type="password" class="input" placeholder="Password" />
+          <label class="label text-neutral font-bold">Mobile Number</label>
+          <input type="text" maxlength="11" minlength="11" class="input rounded-full bg-base-200" placeholder="Enter your 11 digit of a number" />
+          <br>
+
+          <label class="label text-neutral font-bold">4 Digit pin</label>
+          <input type="password" maxlength="4" minlength="4" class="input rounded-full bg-base-200" placeholder="Enter 4 digit pin" />
           <div><a class="link link-hover">Forgot password?</a></div>
-          <button class="btn btn-neutral mt-4">Login</button>
+          <button class="btn btn-primary mt-4 rounded-full">Login</button>
         </fieldset>
       </div>
     </div>
     </div>
+    <script src="script/login.js"></script>
 </body>
 </html>
